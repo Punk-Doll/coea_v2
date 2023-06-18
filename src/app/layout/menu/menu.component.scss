@@ -1,0 +1,33 @@
+nav{
+    background:#fff;
+}
+.card-line{
+    display:flex;
+    justify-content: center;
+}
+.card-item{
+    width: 200px !important;
+    text-align:center;
+    color:#81959E;
+}
+.card-item a{
+    text-decoration:none;
+    color:#81959E;
+}
+mat-card.mat-mdc-card.mdc-card {
+    background:#fff;
+    padding:15px 0 15px 0;
+    box-shadow: none;
+}
+mat-card.mat-mdc-card.mdc-card.active{
+    background: #52C7C4;
+    color:#fff;
+}
+mat-card.mat-mdc-card.mdc-card:hover {
+    background: #52C7C4;
+    color:#fff;
+}
+mat-icon{
+    color:#81959E;
+    margin: 5px auto;
+}

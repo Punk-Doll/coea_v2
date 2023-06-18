@@ -1,0 +1,23 @@
+<section class="analisys">
+    <div class="contain">
+        <div class="row card-line">
+            <div class="cards-number">
+                <mat-card>
+                    <mat-card-content>Simple card</mat-card-content>
+                  </mat-card>
+                  <mat-card>
+                    <mat-card-content>Simple card</mat-card-content>
+                  </mat-card>
+            </div>
+            <div class="chart">
+                <canvas class="chart" baseChart
+                [data]="barChartData"
+                [options]="barChartOptions"
+                [type]="barChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)">
+        </canvas>
+            </div>
+        </div>
+    </div>
+</section>
